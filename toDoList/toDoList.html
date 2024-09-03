@@ -7,10 +7,19 @@
     <title>To Do List</title>
 </head>
 <body>
-    <h1>To Do List</h1>
-    <div class="container"></div>
-    <input id="inputTask" type="Adicione a nova tarefa"> 
-    <button id="btnAddTask">Adicionar nova tarefa</button>
+    <div class="container">
+        <div id="input-section">
+            <h2>Lista de Tarefas</h2>
+            <div class="row">
+                <input id="inputTask" type="text" placeholder="Adicione uma nova tarefa..."> 
+                <button onclick="addTask()">Adicionar tarefa</button>
+            </div>
+            <ul id="taskList">
+                <!-- <li class="checked">TAREFA</li>
+                <li class="checked">Teste2</li> -->
+            </ul>
+        </div>
+    </div>
 </body>
     <script src="toDoList.js"></script>
 </html>
